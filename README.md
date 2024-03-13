@@ -1,11 +1,11 @@
-![Faculdade de Design Tecnologia e Comunicaçao-Universidade Europeia](imagem1.jpg)
+![Faculdade de Design Tecnologia e Comunicaçao-Universidade Europeia](Sistemas-Operativos/imagens/imagem1.jpg)
 
 
 # Proposta de Projeto: Desenvolvimento de Servidor Web Multi-Threading em Java
 
 # Tema: Multi-threading Application
 
-![Java Multithreading](imagem2.jpg)
+![Java Multithreading](Sistemas-Operativos/imagens/imagem2.jpg)
 
 ## Docente: Pedro Rosa
 
@@ -71,7 +71,7 @@ Cada thread será responsável por gerenciar integralmente uma conexão individu
 
 Ao adotar essa arquitetura multithreading, estamos garantindo que o servidor seja altamente responsivo e capaz de lidar com uma ampla gama de cenários de uso, desde solicitações simples até cargas de tráfego intenso. Além disso, essa abordagem maximiza a utilização dos recursos do sistema, proporcionando uma resposta rápida e consistente às solicitações dos clientes.
 
-![Exemplo](imagem3.jpg)
+![Exemplo](Sistemas-Operativos/imagens/imagem3.jpg)
 
 
 ### Tecnologias a Utilizar:
@@ -82,7 +82,7 @@ Ao adotar essa arquitetura multithreading, estamos garantindo que o servidor sej
 
 ### Planeamento e Calendarização:
 
-![Planeamento e Calendarização](imagem4.jpg)
+![Planeamento e Calendarização](Sistemas-Operativos/imagens/imagem4.jpg)
 
 ### Bibliografia:
 
