@@ -158,13 +158,13 @@ Sendo assim concluímos que o ponto fraco da nossa implementação consiste nas 
 ## Bibliografia:
 
 - https://leon-wn.github.io/doc/java-concurrency-in-prac>ce.pdf
-- https://theswissbay.ch/pdf/Gentoomen Library/Programming/O%27Reilly Desining Series/O%27Reilly Head First Servlets and JSP.pdf
+- https://theswissbay.ch/pdf/GentoomenLibrary/Programming/O%27ReillyDesiningSeries/O%27ReillyHeadFirstServletsandJSP.pdf
 - https://docs.oracle.com/en/java/
-- Documentação oficial do protocolo HTTP
+- https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://developer.mozilla.org/pt-BR/docs/Web/HTTP&ved=2ahUKEwjNntTWxbGGAxWphf0HHe21BQ4QFnoECBoQAQ&usg=AOvVaw1Nw-wFAVO34d2X0yO9OqSc
 - https://docs.aws.amazon.com/elas>cloadbalancing/
 - https://docs.aws.amazon.com/ecs/
 - https://www.rfc-editor.org/rfc/rfc2616
-- https://lp.jetbrains.com/intellij-idea-features- promo/?source=google&medium=cpc&campaign=EMEA_en_WEST_IDEA_Branded&ter m=intellij&content=693349187751&gad_source=1&gclid=Cj0KCQjwu8uyBhC6ARIsAKw BGpTdNM-lTUMD_d1MGPjpjfobyyEjuPg_27lRPtCYPQEz-cGfrDIoAAoaAkwYEALw_wcB
+- https://lp.jetbrains.com/intellij-idea-features-promo/?source=google&medium=cpc&campaign=EMEA_en_WEST_IDEA_Branded&term=intellij&content=693349187751&gad_source=1&gclid=Cj0KCQjwu8uyBhC6ARIsAKwBGTdNM-lTUMD_d1MGPjpjfobyyEjuPg_27lRPtCYPQEz-cGfrDIoAAoaAkwYEALw_wcB
 ## 6. Anexos
 
 ### Pagina Principal servida pelo servidor:
