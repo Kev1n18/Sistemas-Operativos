@@ -122,7 +122,7 @@ em caso de problemas em uma das instâncias.
 
 • Desempenho: A arquitetura multithreading permite que o servidor processe múltiplas solicitações simultaneamente, proporcionando uma resposta rápida e consistente às solicitações dos clientes, mesmo sob cargas de tráfego intenso. Ao adotar essa arquitetura, garan>mos que a solução seja altamente responsiva, escalável e confiável, atendendo a uma ampla gama de cenários de uso e proporcionando uma experiência de alta qualidade para os usuários finais.
 
-   ![Arquitetura](Imagem5.png)
+   ![Arquitetura](imagem5.png)
 
 
 ### Tecnologias a Utilizar:
@@ -142,7 +142,7 @@ balanceamento eficiente de carga.
 
 ## 3. Planeamento e Calendarização
 
-![Planeamento e Calendarização](Imagem6.png)
+![Planeamento e Calendarização](imagem6.png)
 
 
 ## Resultados
