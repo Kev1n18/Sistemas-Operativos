@@ -33,6 +33,7 @@ Diante desse cenário, surge a necessidade de explorar técnicas avançadas de p
 3. Implementação de APIs e Serviços RESTful: O servidor desenvolvido pode ser utilizado para implementar serviços RESTful e APIs, permitindo a comunicação eficiente entre clientes e servidores em ambientes distribuídos.
 
 Mais abaixo temos um diagrama de como funciona uma thread.
+
 ![Exemplo](Imagem3.jpg)
 
 ## 2. Descrição da Solução a Implementar:
@@ -42,6 +43,7 @@ Mais abaixo temos um diagrama de como funciona uma thread.
 A proposta visa desenvolver um robusto servidor web multithreading em Java para atender às demandas crescentes por serviços web de alto desempenho. O servidor será projetado para lidar com múltiplas conexões HTTP de forma simultânea, utilizando um modelo multithreaded para processar cada solicitação de maneira independente e eficiente. Ao adotar essa abordagem, garantiremos uma distribuição eficaz dos recursos do servidor, proporcionando uma resposta rápida e confiável mesmo em situações de pico de tráfego.
 
 Durante o desenvolvimento, a solução foi aprimorada com as seguintes alterações que diferem da proposta inicial:
+
 • Containerização com Docker: O servidor web mulHthreading em Java foi encapsulado em containers Docker, facilitando a portabilidade, o isolamento e a gestão dos ambientes de execução.
 
 • Implementação na AWS: UHlizamos a infraestrutura da AWS para hospedar os containers Docker, beneficiando-nos da escalabilidade e robustez da plataforma.
@@ -84,40 +86,41 @@ Observação: A utilização de containers e de um load balancer de cloud, não 
 
 A arquitetura da solução será cuidadosamente projetada para garantir a eficiência e a confiabilidade do servidor web multithreading. No núcleo da arquitetura estará um servidor principal altamente escalável, capaz de gerenciar e coordenar conexões de clientes de forma eficiente.
 
-Componentes da Arquitetura:
+### Componentes da Arquitetura:
 
-1. Servidor Principal Mul3threading:
-• Cada vez que uma conexão é estabelecida, o servidor principal dinamicamente cria uma nova thread dedicada para lidar com as solicitações desse cliente específico. Essa abordagem permite que o servidor atenda a múl>plas solicitações simultaneamente, sem sobrecarregar o sistema ou comprometer sua estabilidade.
+1. Servidor Principal Multithreading:
+   
+• Cada vez que uma conexão é estabelecida, o servidor principal dinamicamente cria uma nova thread dedicada para lidar com as solicitações desse cliente específico. Essa abordagem permite que o servidor atenda a múltiplas solicitações simultaneamente, sem sobrecarregar o sistema ou comprometer sua estabilidade.
+
 • Cada thread é responsável por gerenciar integralmente uma conexão individual, manipulando a entrada e saída de dados associados à solicitação HTTP correspondente. Isso significa que o servidor pode processar solicitações de forma independente, distribuindo eficientemente a carga de trabalho entre as threads disponíveis.
 
 2. Containerização com Docker:
-• O servidor web mul>threading em Java foi encapsulado em containers
-Docker. Essa containerização proporciona portabilidade, isolamento e
-facilita a gestão dos ambientes de execução.
-• Dois containers Docker são u>lizados para executar instâncias do servidor,
-aumentando a redundância e a capacidade de lidar com um maior volume de tráfego.
+   
+• O servidor web multithreading em Java foi encapsulado em containers Docker. Essa containerização proporciona portabilidade, isolamento e facilita a gestão dos ambientes de execução.
+
+• Dois containers Docker são utilizados para executar instâncias do servidor, aumentando a redundância e a capacidade de lidar com um maior volume de tráfego.
 
 3. Infraestrutura na AWS:
-• Os containers Docker são implantados em máquinas virtuais (ECS) na
-AWS, oferecendo uma plataforma escalável e robusta para a execução do
-servidor web.
-• O ambiente de execução baseado em Linux nas instâncias ECS garante
-uma infraestrutura confiável e eficiente.
+   
+• Os containers Docker são implantados em máquinas virtuais (ECS) na AWS, oferecendo uma plataforma escalável e robusta para a execução do servidor web.
+
+• O ambiente de execução baseado em Linux nas instâncias ECS garante uma infraestrutura confiável e eficiente.
 
 4. Load Balancer da AWS:
-• Um load balancer da AWS é configurado para distribuir o tráfego de rede
-entre os dois containers Docker. Isso garante alta disponibilidade e balanceamento eficiente de carga, proporcionando uma experiência de usuário fluida e responsiva.
+   
+• Um load balancer da AWS é configurado para distribuir o tráfego de rede entre os dois containers Docker. Isso garante alta disponibilidade e balanceamento eficiente de carga, proporcionando uma experiência de usuário fluida e responsiva.
+
 • O load balancer monitora as instâncias do servidor e distribui o tráfego de acordo com a carga atual de cada container, maximizando a u>lização dos recursos e evitando sobrecargas.
 
 ### Benefícios da Arquitetura:
-• Escalabilidade: A u>lização de containers Docker e a infraestrutura da AWS
-permitem escalar horizontalmente a solução conforme necessário, adicionando
+
+• Escalabilidade: A utilização de containers Docker e a infraestrutura da AWS permitem escalar horizontalmente a solução conforme necessário, adicionando
 mais containers e ajustando os recursos da infraestrutura de maneira flexível.
-• Resiliência: A configuração com múl>plos containers e um load balancer garante alta disponibilidade e resiliência a falhas, mantendo o serviço disponível mesmo
+
+• Resiliência: A configuração com múltiplos containers e um load balancer garante alta disponibilidade e resiliência a falhas, mantendo o serviço disponível mesmo
 em caso de problemas em uma das instâncias.
-• Desempenho: A arquitetura mul>threading permite que o servidor processe
-múl>plas solicitações simultaneamente, proporcionando uma resposta rápida e
-consistente às solicitações dos clientes, mesmo sob cargas de tráfego intenso. Ao adotar essa arquitetura, garan>mos que a solução seja altamente responsiva, escalável e confiável, atendendo a uma ampla gama de cenários de uso e proporcionando uma experiência de alta qualidade para os usuários finais.
+
+• Desempenho: A arquitetura multithreading permite que o servidor processe múltiplas solicitações simultaneamente, proporcionando uma resposta rápida e consistente às solicitações dos clientes, mesmo sob cargas de tráfego intenso. Ao adotar essa arquitetura, garan>mos que a solução seja altamente responsiva, escalável e confiável, atendendo a uma ampla gama de cenários de uso e proporcionando uma experiência de alta qualidade para os usuários finais.
 
 
 
@@ -125,9 +128,13 @@ consistente às solicitações dos clientes, mesmo sob cargas de tráfego intens
 ### Tecnologias a Utilizar:
 
 • Linguagem de programação: Java para desenvolver o servidor web, uHlizando bibliotecas como java.net para comunicação de rede.
+
 • IDE para desenvolvimento Java: Como IntelliJ IDEA, escolhida por sua eficiência e recursos avançados de desenvolvimento.
+
 • Ferramentas de teste: JUnit para testes unitários e Apache JMeter para testes de carga, permiHndo uma avaliação abrangente do desempenho e escalabilidade do servidor web em diferentes cenários de uso.
+
 • Containerização: Docker: U>lizado para containerizar o servidor web, proporcionando portabilidade, isolamento e facilidade na gestão dos ambientes de execução. Ferramentas como Docker Compose podem ser u>lizadas para orquestração dos containers.
+
 • Plataformas de cloud(AWS):
 1. EC2 (Elas3c Compute Cloud): Para a criação e configuração de máquinas virtuais (instâncias) que executam os containers Docker.
 2.  ELB (Elas3c Load Balancing): Para distribuir o tráfego de rede entre os containers Docker, garan>ndo alta disponibilidade e
@@ -139,13 +146,14 @@ balanceamento eficiente de carga.
 
 
 ## Resultados
-Durante o desenvolvimento e teste do servidor web mul>threading, uma série de resultados significa>vos foram ob>dos, demonstrando a eficácia e a robustez da solução implementada.
-Uma parte fundamental dos testes realizados foi a avaliação do desempenho e escalabilidade do servidor em diferentes cenários de uso. U>lizando a ferramenta Apache JMeter, realizamos testes de carga simulando um alto volume de tráfego de usuários acessando o servidor simultaneamente. Os resultados desses testes foram analisados para avaliar a capacidade do servidor de lidar com uma carga de trabalho substancial e garan>r uma resposta rápida e consistente às solicitações dos clientes.
-O gráfico gerado pelo Apache JMeter revelou que aproximadamente 80% das conexões foram bem-sucedidas durante os períodos de pico de tráfego. Isso indica que o servidor conseguiu manter um desempenho estável e uma boa taxa de resposta mesmo sob carga intensa.
-No entanto, os restantes 20% das conexões resultaram em erros, incluindo uma quan>dade significa>va de requisições resultando em "Bad Request" (400) e "Not Found" (404).
-A presença desses erros sugere áreas de melhoria no servidor, como o aprimoramento da gestão de requisições inválidas e a implementação de mecanismos de recuperação de falhas mais robustos. Embora a maioria das conexões tenha sido bem-sucedida, é crucial abordar esses casos de erro para garan>r uma experiência de usuário consistente e confiável.
-Em resumo, os resultados ob>dos durante os testes de desempenho e escalabilidade demonstram que o servidor web mul>threading é capaz de lidar eficientemente com uma carga substancial de tráfego, proporcionando uma resposta rápida e confiável à maioria das solicitações. No entanto, a presença de erros em uma parte significa>va das conexões destaca a importância conlnua da o>mização e aprimoramento do servidor para garan>r um desempenho consistente em todos os cenários de uso.
-Sendo assim concluímos que o ponto fraco da nossa implementação consiste nas conexões que não passam. Vale enfa>zar também que implementamos tudo que foi proposto e na secção anexos, anexamos capturas de ecrã sobre tudo que foi mencionado na secção resultados.
+Durante o desenvolvimento e teste do servidor web multithreading, uma série de resultados significativos foram obtidos, demonstrando a eficácia e a robustez da solução implementada.
+Uma parte fundamental dos testes realizados foi a avaliação do desempenho e escalabilidade do servidor em diferentes cenários de uso. Utilizando a ferramenta Apache JMeter, realizamos testes de carga simulando um alto volume de tráfego de usuários acessando o servidor simultaneamente. Os resultados desses testes foram analisados para avaliar a capacidade do servidor de lidar com uma carga de trabalho substancial e garantir uma resposta rápida e consistente às solicitações dos clientes.
+
+O gráfico gerado pelo Apache JMeter revelou que aproximadamente 80% das conexões foram bem-sucedidas durante os períodos de pico de tráfego. Isso indica que o servidor conseguiu manter um desempenho estável e uma boa taxa de resposta mesmo sob carga intensa. No entanto, os restantes 20% das conexões resultaram em erros, incluindo uma quantidade significativa de requisições resultando em "Bad Request" (400) e "Not Found" (404).
+
+A presença desses erros sugere áreas de melhoria no servidor, como o aprimoramento da gestão de requisições inválidas e a implementação de mecanismos de recuperação de falhas mais robustos. Embora a maioria das conexões tenha sido bem-sucedida, é crucial abordar esses casos de erro para garantir uma experiência de usuário consistente e confiável.
+Em resumo, os resultados obtidos durante os testes de desempenho e escalabilidade demonstram que o servidor web multithreading é capaz de lidar eficientemente com uma carga substancial de tráfego, proporcionando uma resposta rápida e confiável à maioria das solicitações. No entanto, a presença de erros em uma parte significativa das conexões destaca a importância conlnua da o>mização e aprimoramento do servidor para garan>r um desempenho consistente em todos os cenários de uso.
+Sendo assim concluímos que o ponto fraco da nossa implementação consiste nas conexões que não passam. Vale enfatizar também que implementamos tudo que foi proposto e na secção anexos, anexamos capturas de ecrã sobre tudo que foi mencionado na secção resultados.
 
 ## Bibliografia:
 
