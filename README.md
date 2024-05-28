@@ -157,15 +157,14 @@ Sendo assim concluímos que o ponto fraco da nossa implementação consiste nas 
 
 ## Bibliografia:
 
-- h-ps://leon-wn.github.io/doc/java-concurrency-in-prac>ce.pdf
-- h-ps://theswissbay.ch/pdf/Gentoomen Library/Programming/O%27Reilly Desining Series/O%27Reilly Head First Servlets and JSP.pdf
-- Documentação oficial do Java SE.
+- https://leon-wn.github.io/doc/java-concurrency-in-prac>ce.pdf
+- https://theswissbay.ch/pdf/Gentoomen Library/Programming/O%27Reilly Desining Series/O%27Reilly Head First Servlets and JSP.pdf
+- https://docs.oracle.com/en/java/
 - Documentação oficial do protocolo HTTP
-- h-ps://docs.aws.amazon.com/elas>cloadbalancing/
-- h-ps://docs.aws.amazon.com/ecs/
-- h-ps://www.rfc-editor.org/rfc/rfc2616
-- h-ps://lp.jetbrains.com/intellij-idea-features- promo/?source=google&medium=cpc&campaign=EMEA_en_WEST_IDEA_Branded&ter m=intellij&content=693349187751&gad_source=1&gclid=Cj0KCQjwu8uyBhC6ARIsAKw BGpTdNM-lTUMD_d1MGPjpjfobyyEjuPg_27lRPtCYPQEz-cGfrDIoAAoaAkwYEALw_wcB
-
+- https://docs.aws.amazon.com/elas>cloadbalancing/
+- https://docs.aws.amazon.com/ecs/
+- https://www.rfc-editor.org/rfc/rfc2616
+- https://lp.jetbrains.com/intellij-idea-features- promo/?source=google&medium=cpc&campaign=EMEA_en_WEST_IDEA_Branded&ter m=intellij&content=693349187751&gad_source=1&gclid=Cj0KCQjwu8uyBhC6ARIsAKw BGpTdNM-lTUMD_d1MGPjpjfobyyEjuPg_27lRPtCYPQEz-cGfrDIoAAoaAkwYEALw_wcB
 ## 6. Anexos
 
 ### Pagina Principal servida pelo servidor:
@@ -182,11 +181,12 @@ Sendo assim concluímos que o ponto fraco da nossa implementação consiste nas 
 
 ### Tabela de conexões aceites e não aceites:
 
-imagem 10 aqui 
+![Tabela de conexões](imagem10.png)
 
 ### Gráfico de threads( a linha vermelha representa as conexões que falharam):
 
-imagem1.1 aqui
+![Gráfico de threads](imagem1.1.png)
+
 
 
 
