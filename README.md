@@ -32,6 +32,9 @@ Diante desse cenário, surge a necessidade de explorar técnicas avançadas de p
 
 3. Implementação de APIs e Serviços RESTful: O servidor desenvolvido pode ser utilizado para implementar serviços RESTful e APIs, permitindo a comunicação eficiente entre clientes e servidores em ambientes distribuídos.
 
+Mais abaixo temos um diagrama de como funciona uma thread.
+![Exemplo](Imagem3.jpg)
+
 ## 2. Descrição da Solução a Implementar:
 
 ### Solução Genérica:
@@ -116,7 +119,7 @@ em caso de problemas em uma das instâncias.
 múl>plas solicitações simultaneamente, proporcionando uma resposta rápida e
 consistente às solicitações dos clientes, mesmo sob cargas de tráfego intenso. Ao adotar essa arquitetura, garan>mos que a solução seja altamente responsiva, escalável e confiável, atendendo a uma ampla gama de cenários de uso e proporcionando uma experiência de alta qualidade para os usuários finais.
 
-![Exemplo](Imagem3.jpg)
+
 
 
 ### Tecnologias a Utilizar:
@@ -130,7 +133,7 @@ consistente às solicitações dos clientes, mesmo sob cargas de tráfego intens
 2.  ELB (Elas3c Load Balancing): Para distribuir o tráfego de rede entre os containers Docker, garan>ndo alta disponibilidade e
 balanceamento eficiente de carga.
 
-## Planeamento e Calendarização:
+## 3. Planeamento e Calendarização
 
 ![Planeamento e Calendarização](Imagem4.png)
 
