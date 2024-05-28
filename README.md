@@ -168,23 +168,23 @@ Sendo assim concluímos que o ponto fraco da nossa implementação consiste nas 
 
 ## 6. Anexos
 
-## Pagina Principal servida pelo servidor:
+### Pagina Principal servida pelo servidor:
 
 imagem 7
 
-## Identificação de threads (0 é a thread de conexão ao servidor) pela consola e extração do Body do request por parte do Regex:
+### Identificação de threads (0 é a thread de conexão ao servidor) pela consola e extração do Body do request por parte do Regex:
 
 imagem 8
 
-## Retornos do servidor, caso o pedido não seja GET ou POST
+### Retornos do servidor, caso o pedido não seja GET ou POST
 
 imagem 9
 
-## Tabela de conexões aceites e não aceites:
+### Tabela de conexões aceites e não aceites:
 
 imagem 10 aqui 
 
-## Gráfico de threads( a linha vermelha representa as conexões que falharam):
+### Gráfico de threads( a linha vermelha representa as conexões que falharam):
 
 imagem1.1 aqui
 
