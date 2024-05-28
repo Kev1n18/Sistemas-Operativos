@@ -165,3 +165,30 @@ Sendo assim concluímos que o ponto fraco da nossa implementação consiste nas 
 - h-ps://docs.aws.amazon.com/ecs/
 - h-ps://www.rfc-editor.org/rfc/rfc2616
 - h-ps://lp.jetbrains.com/intellij-idea-features- promo/?source=google&medium=cpc&campaign=EMEA_en_WEST_IDEA_Branded&ter m=intellij&content=693349187751&gad_source=1&gclid=Cj0KCQjwu8uyBhC6ARIsAKw BGpTdNM-lTUMD_d1MGPjpjfobyyEjuPg_27lRPtCYPQEz-cGfrDIoAAoaAkwYEALw_wcB
+
+## 6. Anexos
+
+## Pagina Principal servida pelo servidor:
+
+imagem 7
+
+## Identificação de threads (0 é a thread de conexão ao servidor) pela consola e extração do Body do request por parte do Regex:
+
+imagem 8
+
+## Retornos do servidor, caso o pedido não seja GET ou POST
+
+imagem 9
+
+## Tabela de conexões aceites e não aceites:
+
+imagem 10 aqui 
+
+## Gráfico de threads( a linha vermelha representa as conexões que falharam):
+
+imagem1.1 aqui
+
+
+
+
+
