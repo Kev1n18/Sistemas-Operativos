@@ -38,9 +38,24 @@ Diante desse cenário, surge a necessidade de explorar técnicas avançadas de p
 
 A proposta visa desenvolver um robusto servidor web multithreading em Java para atender às demandas crescentes por serviços web de alto desempenho. O servidor será projetado para lidar com múltiplas conexões HTTP de forma simultânea, utilizando um modelo multithreaded para processar cada solicitação de maneira independente e eficiente. Ao adotar essa abordagem, garantiremos uma distribuição eficaz dos recursos do servidor, proporcionando uma resposta rápida e confiável mesmo em situações de pico de tráfego.
 
-Nossa solução se destacará pela sua capacidade de gerenciar eficientemente solicitações concorrentes, minimizando o tempo de espera dos clientes e oferecendo uma experiência de navegação fluída. Além disso, o servidor será configurado para servir não apenas conteúdo HTML, mas também imagens e outros recursos estáticos, ampliando sua versatilidade e utilidade para uma variedade de aplicações web.
+Durante o desenvolvimento, a solução foi aprimorada com as seguintes alterações que diferem da proposta inicial:
+• Containerização com Docker: O servidor web mulHthreading em Java foi encapsulado em containers Docker, facilitando a portabilidade, o isolamento e a gestão dos ambientes de execução.
 
-Ao implementar esse servidor web multithreading, estaremos capacitando nossos clientes a oferecer serviços web de alta qualidade e confiabilidade, garantindo uma performance excepcional e uma experiência positiva para os usuários finais.
+• Implementação na AWS: UHlizamos a infraestrutura da AWS para hospedar os containers Docker, beneficiando-nos da escalabilidade e robustez da plataforma.
+
+• Load Balancer: Um load balancer da AWS foi configurado para distribuir o tráfego de rede entre dois containers Docker, garanHndo alta disponibilidade e balanceamento de carga eficiente.
+
+• Ambiente de Execução: Os containers Docker são executados em máquinas virtuais Linux na AWS, proporcionando um ambiente escalável e robusto para o servidor web.
+
+• Arquivos aceites: Na primeira proposta, foi mencionado que o servidor trabalharia apenas com arquivos estáHcos do formato HTML, mas após algumas discussões com o docente houve a necessidade de adicionar mais alguns formatos aceites. Como CSS, JAVASCRIPT, imagem(.JPG)
+
+• Validação de requests: A junção com a cadeira de compiladores, fez com que implementássemos esta funcionalidade. O servidor aceita apenas pedidos GET e POST. O que fez com que implementássemos a validação dos pedidos através da expressão regular "^(GET|POST)\\s(\\/\\S*)\\s(HTTP\\/\\d\\.\\d)$". Caso pedido não seja um GET ou POST a página retorna um Bad request (400 error).
+
+Com essas melhorias, a solução desenvolvida se tornou mais robusta, escalável e eficiente, atendendo melhor às necessidades dos uHlizadores e garanHndo um desempenho excecional em diferentes condições de carga.
+Enquadramento nas Áreas da Unidade Curricular:
+Este projeto está alinhado com os objeHvos da disciplina ao explorar conceitos avançados de programação em Java e sua aplicação na construção de sistemas distribuídos e servidores web. Ao desenvolver um servidor web mulH-threaded em Java, os alunos terão a oportunidade de aprofundar seus conhecimentos em programação orientada a objetos, manipulação de threads e comunicação de rede.
+Além disso, o projeto permite explorar conceitos teóricos, como protocolos de rede e protocolo HTTP, na práHca, contribuindo para uma compreensão mais abrangente dos fundamentos da computação distribuída e desenvolvimento de sistemas web.
+Ao final do projeto, espera-se que os alunos estejam aptos a aplicar os conceitos e técnicas aprendidos em cenários do mundo real, enfrentando desafios comuns na implementação de servidores web e sistemas distribuídos.
 
 ### Enquadramento nas Áreas da Unidade Curricular:
 
