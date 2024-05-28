@@ -1,7 +1,7 @@
 ![Faculdade de Design Tecnologia e Comunicaçao-Universidade Europeia](Imagem1.jpg)
 
 
-# Proposta de Projeto: Desenvolvimento de Servidor Web Multi-Threading em Java
+# Desenvolvimento de Servidor Web Multi-Threading em Java
 
 # Tema: Multi-threading Application
 
