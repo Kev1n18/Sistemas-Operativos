@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C9EFC9;
+    text-align: center;
+    padding: 50px;
+}
+
+#tenda {
+
+    height: 450px;
+    width: 450px;
+}
+
+#button{
+
+    height: 40px;
+    width: 120px;
+    border-style: none;
+    background-color: darkgreen;
+}
+
+.letra{
+    color: #386844;
+}
+
+#link{
+
+    text-decoration: none;
+    color: white;
+}
