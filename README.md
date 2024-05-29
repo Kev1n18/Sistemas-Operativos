@@ -187,7 +187,18 @@ Sendo assim concluímos que o ponto fraco da nossa implementação consiste nas 
 
 ![Gráfico de threads](imagem1.1.png)
 
+## 6.Execução
+6.1(Execução em IDE): 
+Para execução do codigo em recomendamos o IDE intelij. 
+1. Descarregar o codigo deste repositorio Git
+2. Abrir o IDE Intelij da jetbrains https://www.jetbrains.com/idea/
+3. Após ter o ficheiro descarregado e o IDE Intelij aberto, fazer Open project no canto superior direito do menu inicial do intelij e selecionar a pasta do codigo descarregado do repositorio git.
+4. Após o terceiro passo irá ver o compilador aberto com codigo, basta clicar no botão de correr do compilador e o servidor entrará em execução.
 
+6.2(Execução em AWS):
+Para executar o servidor em aws basta abrir os links indicados abaixo:
+Container-1: http://ec2-16-170-206-103.eu-north-1.compute.amazonaws.com:8080/page.html
+Container-2: http://ec2-13-60-41-122.eu-north-1.compute.amazonaws.com:3004/index.html
 
 
 
