@@ -124,6 +124,10 @@ em caso de problemas em uma das instâncias.
 
    ![Arquitetura](imagem5.png)
 
+1. Aplication Load balancer na porta 80.
+2. EC2 Container 1 na porta 8080.
+3. EC2 Container 2 na porta 3004.
+Como podemos ver na imagem o load balancer aberto ao publico na porta 80, aponta para as portas 8080 e 3004, destribuindo assim  o traffego entre ambos os containers.
 
 ### Tecnologias a Utilizar:
 
@@ -199,7 +203,7 @@ Para execução do codigo em recomendamos o IDE intelij.
 
 Para executar o servidor em aws basta abrir os links indicados abaixo:
 
-Container-1: http://ec2-16-170-206-103.eu-north-1.compute.amazonaws.com:8080/page.html
+Container-1: http://ec2-16-170-206-103.eu-north-1.compute.amazonaws.com:8080/index.html
 
 Container-2: http://ec2-13-60-41-122.eu-north-1.compute.amazonaws.com:3004/index.html
 
