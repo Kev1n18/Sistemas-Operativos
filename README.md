@@ -196,8 +196,11 @@ Para execução do codigo em recomendamos o IDE intelij.
 4. Após o terceiro passo irá ver o compilador aberto com codigo, basta clicar no botão de correr do compilador e o servidor entrará em execução.
 
 6.2(Execução em AWS):
+
 Para executar o servidor em aws basta abrir os links indicados abaixo:
+
 Container-1: http://ec2-16-170-206-103.eu-north-1.compute.amazonaws.com:8080/page.html
+
 Container-2: http://ec2-13-60-41-122.eu-north-1.compute.amazonaws.com:3004/index.html
 
 
