@@ -122,7 +122,7 @@ em caso de problemas em uma das instâncias.
 
 • Desempenho: A arquitetura multithreading permite que o servidor processe múltiplas solicitações simultaneamente, proporcionando uma resposta rápida e consistente às solicitações dos clientes, mesmo sob cargas de tráfego intenso. Ao adotar essa arquitetura, garan>mos que a solução seja altamente responsiva, escalável e confiável, atendendo a uma ampla gama de cenários de uso e proporcionando uma experiência de alta qualidade para os usuários finais.
 
-   ![Arquitetura](imagem5.png)
+   ![Arquitetura](arqui.png)
 
 1. Aplication Load balancer na porta 80.
 2. EC2 Container 1 na porta 8080.
