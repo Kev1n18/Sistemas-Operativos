@@ -207,6 +207,8 @@ Container-1: http://ec2-16-170-206-103.eu-north-1.compute.amazonaws.com:8080/ind
 
 Container-2: http://ec2-13-60-41-122.eu-north-1.compute.amazonaws.com:3004/index.html
 
+Via Load balancer: HTTP-load-balancer-1578543765.eu-north-1.elb.amazonaws.com/index.htmml
+
 
 
 
