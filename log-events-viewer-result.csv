@@ -1,0 +1,201 @@
+timestamp,message
+1716996998104,15:36:38.104 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998104,15:36:38.104 [Thread-1757] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998104,"15:36:38.104 [Thread-1757] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998104,15:36:38.104 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998105,15:36:38.104 [Thread-1758] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998105,"15:36:38.105 [Thread-1758] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998105,15:36:38.105 [Thread-1759] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998105,"15:36:38.105 [Thread-1759] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998172,15:36:38.172 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998176,15:36:38.176 [Thread-1760] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998176,"15:36:38.176 [Thread-1760] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998178,15:36:38.178 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998188,15:36:38.188 [Thread-1761] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998188,"15:36:38.188 [Thread-1761] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998189,15:36:38.189 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998189,15:36:38.189 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998192,15:36:38.192 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.37
+1716996998192,15:36:38.192 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998196,15:36:38.196 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998196,15:36:38.196 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998197,15:36:38.197 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.37
+1716996998197,15:36:38.197 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998197,15:36:38.197 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998197,15:36:38.197 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998197,15:36:38.197 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998200,15:36:38.200 [Thread-1762] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998200,"15:36:38.200 [Thread-1762] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998201,15:36:38.201 [Thread-1763] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998201,"15:36:38.201 [Thread-1763] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998209,15:36:38.209 [Thread-1765] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998209,"15:36:38.209 [Thread-1765] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998209,15:36:38.209 [Thread-1764] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998209,"15:36:38.209 [Thread-1764] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998212,15:36:38.212 [Thread-1766] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998213,"15:36:38.212 [Thread-1766] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998213,15:36:38.213 [Thread-1768] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998213,15:36:38.213 [Thread-1767] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998213,"15:36:38.213 [Thread-1767] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998213,15:36:38.213 [Thread-1769] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998213,"15:36:38.213 [Thread-1769] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998213,15:36:38.213 [Thread-1771] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998214,"15:36:38.214 [Thread-1771] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998214,15:36:38.213 [Thread-1770] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998214,"15:36:38.213 [Thread-1768] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998214,"15:36:38.214 [Thread-1770] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998214,15:36:38.213 [Thread-1772] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998214,"15:36:38.214 [Thread-1772] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998238,15:36:38.238 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998238,15:36:38.238 [Thread-1773] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998238,"15:36:38.238 [Thread-1773] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998247,15:36:38.247 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998247,15:36:38.247 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998247,15:36:38.247 [Thread-1774] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998247,"15:36:38.247 [Thread-1774] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998248,15:36:38.248 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998248,15:36:38.247 [Thread-1775] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998248,"15:36:38.248 [Thread-1775] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998248,15:36:38.248 [Thread-1776] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998248,"15:36:38.248 [Thread-1776] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998249,15:36:38.249 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998250,15:36:38.250 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998250,15:36:38.250 [Thread-1778] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998250,"15:36:38.250 [Thread-1778] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998250,15:36:38.250 [Thread-1777] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998250,"15:36:38.250 [Thread-1777] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998251,15:36:38.251 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998252,15:36:38.252 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998252,15:36:38.252 [Thread-1779] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998252,"15:36:38.252 [Thread-1779] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998252,15:36:38.252 [Thread-1780] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998252,"15:36:38.252 [Thread-1780] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998253,15:36:38.253 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998255,15:36:38.255 [Thread-1781] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998255,"15:36:38.255 [Thread-1781] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998255,15:36:38.255 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998255,15:36:38.255 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998256,15:36:38.256 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998256,15:36:38.256 [Thread-1782] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998256,15:36:38.256 [Thread-1783] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998256,"15:36:38.256 [Thread-1782] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998257,"15:36:38.256 [Thread-1783] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998257,15:36:38.257 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998258,15:36:38.258 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998258,15:36:38.258 [Thread-1784] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998259,"15:36:38.258 [Thread-1784] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998259,15:36:38.259 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998259,15:36:38.259 [Thread-1785] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998259,"15:36:38.259 [Thread-1785] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998259,15:36:38.259 [Thread-1786] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998259,"15:36:38.259 [Thread-1786] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998260,15:36:38.259 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998260,15:36:38.260 [Thread-1787] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998260,"15:36:38.260 [Thread-1787] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998261,15:36:38.261 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998261,15:36:38.261 [Thread-1788] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998261,"15:36:38.261 [Thread-1788] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998262,15:36:38.262 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998262,15:36:38.262 [Thread-1789] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998262,"15:36:38.262 [Thread-1789] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998262,15:36:38.262 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998263,15:36:38.263 [Thread-1790] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998263,15:36:38.263 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998263,"15:36:38.263 [Thread-1790] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998263,15:36:38.263 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998263,15:36:38.263 [Thread-1791] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998263,"15:36:38.263 [Thread-1791] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998264,15:36:38.264 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998264,15:36:38.264 [Thread-1793] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998264,"15:36:38.264 [Thread-1793] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998264,15:36:38.264 [Thread-1792] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998265,"15:36:38.265 [Thread-1792] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998265,15:36:38.265 [Thread-1794] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998265,"15:36:38.265 [Thread-1794] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998268,15:36:38.268 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998268,15:36:38.268 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998268,15:36:38.268 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998269,15:36:38.269 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998269,15:36:38.269 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998269,15:36:38.269 [Thread-1795] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998269,15:36:38.269 [Thread-1797] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998270,15:36:38.269 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998270,"15:36:38.269 [Thread-1795] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998270,15:36:38.269 [Thread-1796] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998270,"15:36:38.270 [Thread-1796] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998270,"15:36:38.270 [Thread-1797] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998270,15:36:38.270 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998271,15:36:38.271 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998272,15:36:38.272 [Thread-1801] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998272,"15:36:38.272 [Thread-1801] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998272,15:36:38.272 [Thread-1798] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998272,15:36:38.272 [Thread-1800] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998272,"15:36:38.272 [Thread-1800] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998272,"15:36:38.272 [Thread-1798] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998273,15:36:38.273 [Thread-1802] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998273,"15:36:38.273 [Thread-1802] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998274,15:36:38.273 [Thread-1799] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998274,"15:36:38.274 [Thread-1799] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998278,15:36:38.278 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998278,15:36:38.278 [Thread-1803] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998278,"15:36:38.278 [Thread-1803] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998285,15:36:38.285 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998286,15:36:38.286 [Thread-1804] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998286,"15:36:38.286 [Thread-1804] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998304,15:36:38.304 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998304,15:36:38.304 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998305,15:36:38.305 [Thread-1805] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998305,"15:36:38.305 [Thread-1805] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998305,15:36:38.305 [Thread-1806] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998305,"15:36:38.305 [Thread-1806] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998306,15:36:38.306 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998312,15:36:38.311 [Thread-1807] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998312,"15:36:38.312 [Thread-1807] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998355,15:36:38.355 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998363,15:36:38.363 [Thread-1808] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998363,"15:36:38.363 [Thread-1808] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998878,15:36:38.878 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996998878,15:36:38.878 [Thread-1809] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998878,"15:36:38.878 [Thread-1809] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996998882,15:36:38.882 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.37
+1716996998882,15:36:38.882 [Thread-1810] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996998882,"15:36:38.882 [Thread-1810] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996999256,15:36:39.255 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996999256,15:36:39.256 [Thread-1811] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996999256,"15:36:39.256 [Thread-1811] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996999265,15:36:39.265 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996999267,15:36:39.267 [Thread-1812] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996999267,"15:36:39.267 [Thread-1812] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996999269,15:36:39.269 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996999270,15:36:39.269 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996999272,15:36:39.272 [Thread-1814] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996999272,"15:36:39.272 [Thread-1814] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996999272,15:36:39.272 [Thread-1813] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996999272,"15:36:39.272 [Thread-1813] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996999289,15:36:39.289 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996999289,15:36:39.289 [Thread-1815] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996999289,"15:36:39.289 [Thread-1815] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716996999293,15:36:39.293 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716996999293,15:36:39.293 [Thread-1816] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716996999293,"15:36:39.293 [Thread-1816] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716997000534,15:36:40.533 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.37
+1716997000534,15:36:40.534 [Thread-1817] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716997000534,"15:36:40.534 [Thread-1817] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716997002217,15:36:42.217 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716997002218,15:36:42.218 [Thread-1818] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716997002218,"15:36:42.218 [Thread-1818] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716997002254,15:36:42.254 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.37
+1716997002255,15:36:42.254 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716997002255,15:36:42.254 [Thread-1820] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716997002255,15:36:42.254 [Thread-1819] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716997002255,"15:36:42.254 [Thread-1819] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716997002255,"15:36:42.254 [Thread-1820] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716997002257,15:36:42.256 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.37
+1716997002258,15:36:42.257 [Thread-1821] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716997002258,"15:36:42.257 [Thread-1821] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716997002575,15:36:42.574 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716997002575,15:36:42.575 [Thread-1822] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716997002575,"15:36:42.575 [Thread-1822] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
+1716997002575,15:36:42.575 [Thread-0] INFO com.example.core.ServerListenerThread - Connection accepted: /213.30.13.36
+1716997002576,15:36:42.576 [Thread-1823] INFO com.example.core.HttpConnectionWorkerThread - Request Line: GET /index.html HTTP/1.1
+1716997002576,"15:36:42.576 [Thread-1823] INFO com.example.core.HttpConnectionWorkerThread - Parsed Request: HttpRequest{method='GET', resource='/index.html', httpVersion='HTTP/1.1'}"
